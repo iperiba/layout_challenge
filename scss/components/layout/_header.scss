@@ -2,5 +2,14 @@
 @use "variables";
 
 .header-image-container {
-  background-image: url("#{$custom-url-images}cabecera.jpg");
+  background: url("#{$custom-url-images}cabecera.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 684px;
+}
+
+.h1-container {
+  height: 70%;
 }

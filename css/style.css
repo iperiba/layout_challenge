@@ -14180,8 +14180,21 @@ textarea.form-control-lg {
   margin-left: auto;
 }
 
+.logo {
+  width: 200px;
+}
+
 /* VARIABLES */
 /* TYPOGRAPHY */
 .header-image-container {
-  background-image: url("../recursos/imagenes/cabecera.jpg");
+  background: url("../recursos/imagenes/cabecera.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 684px;
+}
+
+.h1-container {
+  height: 70%;
 }
