@@ -1,0 +1,63 @@
+/* VARIABLES */
+$custom-url-images: '../recursos/imagenes/';
+$custom-url-icons: '../recursos/iconos/';
+$custom-url-logos: '../recursos/logotipos/';
+
+// breakpoints
+$xs: 576px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+$xl: 1400px;
+
+// colors
+$primary-color-1: #616365;
+$primary-color-2: #f3e8d6;
+
+// SB Icons
+$sb-ticket: "\e906";
+$sb-arrow: "\e901";
+$sb-arrow-left: "\e903";
+$sb-arrow-right: "\e904";
+$sb-arrow-down: "\e900";
+$sb-search: "\e902";
+
+/* TYPOGRAPHY */
+// Font, line-height, and color for body text, headings, and more.
+$font-family-sans-serif: "Inter", sans-serif;
+$font-family-base: $font-family-sans-serif;
+$font-family-lato: 'Lato', sans-serif;
+
+$font-size-title-lg: clamp(3.438rem, 2.864583vw, 34.38rem);
+$font-size-title: clamp(2.5rem, 2.083333vw, 25rem);
+$font-size-title-sm: clamp(1.875rem, 3.333333vw, 2.5rem);
+$font-size-title-xs: clamp(1.5rem, 3.333333vw, 2.5rem);
+$font-size-highlight-text-lg: clamp(1.688rem, 1.40625vw, 16.88rem);
+$font-size-highlight-text: clamp(0.938rem, 2.249999vw, 1.688rem);
+
+
+// Lateral paddings
+$layout-padding-left: clamp(0.875rem, 0.729167vw, 8.75rem);
+$layout-padding-right: $layout-padding-left;
+
+// Lateral paddings on > 1200
+$layout-padding-left-lg: clamp(2.313rem, 1.927083vw, 23.13rem);
+$layout-padding-right-lg: clamp(2rem, 1.6667vw, 20rem);
+
+// Colors
+$secondary-color-1: #EEAF30;
+$secondary-color-2: #69923A;
+
+// Reassign color vars to semantic color scheme
+$white: #fff;
+$black: #000;
+$gray-100: #f8f9fa;
+$gray-800: #343a40;
+
+$red: #dc3545;
+$yellow: #ffc107;
+$green: #28a745;
+$cyan: #17a2b8;
+
+// Breadcrumbs (Works only on Bootstrap 5+)
+// $breadcrumb-divider: quote(">");

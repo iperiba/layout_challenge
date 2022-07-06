@@ -1,0 +1,6 @@
+
+@use "variables";
+
+.header-image-container {
+  background-image: url("#{$custom-url-images}cabecera.jpg");
+}
