@@ -66,5 +66,10 @@
 @import "bootstrap/scss/utilities/api";
 // scss-docs-end import-stack
 
+
+// custom components
 @import "components/layout/layout";
 @import "components/layout/header";
+@import "components/cards/card";
+@import "components/cards/cards-container";
+@import "components/footer/footer";

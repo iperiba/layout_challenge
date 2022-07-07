@@ -1,0 +1,17 @@
+
+.cards-section {
+    header {
+        height: 150px;
+        .row {
+            width: 100%;
+            .col {
+                position: relative;
+                top: 30px;
+            }
+        }
+    }
+
+    .cards-container {
+        height: 320px;
+    }
+}

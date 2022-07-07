@@ -1,11 +1,45 @@
 
+@use "variables";
+
+@font-face {
+  font-family: NunitoSans-semibold;
+  src: url(../recursos/typo/Nunito_Sans/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: NunitoSans-bold;
+  src: url(../recursos/typo/Nunito_Sans/NunitoSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: NunitoSans-regular;
+  src: url(../recursos/typo/Nunito_Sans/NunitoSans-Regular.ttf);
+}
+
 .generic-margin-container {
   width: 60%;
   margin-right:auto;
   margin-left:auto;
 }
 
-.logo {
-  width: 200px;
+.container {
+  padding-right: 0;
+  padding-left: 0;
 }
 
+.row {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.regular {
+  font-family: NunitoSans-regular;
+}
+
+.bold {
+  font-family: NunitoSans-bold;
+}
+
+.semibold {
+  font-family: NunitoSans-semibold;
+}
