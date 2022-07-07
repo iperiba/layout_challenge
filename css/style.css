@@ -14189,9 +14189,19 @@ textarea.form-control-lg {
   src: url(../recursos/typo/Nunito_Sans/NunitoSans-Regular.ttf);
 }
 .generic-margin-container {
-  width: 60%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
+}
+@media screen and (min-width: 62rem) {
+  .generic-margin-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 87.5rem) {
+  .generic-margin-container {
+    width: 60%;
+  }
 }
 
 .container {
@@ -14226,15 +14236,48 @@ textarea.form-control-lg {
   -o-background-size: cover;
   height: 600px;
 }
-
-.h1-container {
-  height: 60%;
+.header-image-container li {
+  font-family: NunitoSans-semibold;
 }
-
-.second-menu {
+.header-image-container .first-menu {
+  margin-bottom: 0;
+}
+.header-image-container .first-menu li {
+  font-size: 0.875rem;
+  position: relative;
+  top: 8px;
+}
+.header-image-container .second-menu {
   padding-left: 0;
+  padding-top: 1.25rem;
+}
+.header-image-container .second-menu li {
+  font-size: 1rem;
+  padding-left: 1.875rem;
+}
+.header-image-container .h1-container {
+  height: 55%;
+}
+.header-image-container .h1-container h1, .header-image-container .h1-container .h1 {
+  font-size: 3.125rem;
+}
+.header-image-container .h1-container h2, .header-image-container .h1-container .h2 {
+  font-size: 2.375rem;
 }
 
+/* VARIABLES */
+/* TYPOGRAPHY */
+.cards-container .col .card-body h5, .cards-container .col .card-body .h5 {
+  font-size: 1.25rem;
+  font-family: NunitoSans-bold;
+}
+.cards-container .col .card-body p {
+  font-size: 1rem;
+  font-family: NunitoSans-regular;
+}
+
+/* VARIABLES */
+/* TYPOGRAPHY */
 .cards-section header {
   height: 150px;
 }
@@ -14245,8 +14288,17 @@ textarea.form-control-lg {
   position: relative;
   top: 30px;
 }
-.cards-section .cards-container {
-  height: 320px;
+.cards-section header h4, .cards-section header .h4 {
+  font-size: 1.875rem;
+  color: #5EA8E9;
+}
+.cards-section header h5, .cards-section header .h5 {
+  font-size: 1.625rem;
+}
+@media screen and (min-width: 75rem) {
+  .cards-section .cards-container {
+    height: 320px;
+  }
 }
 
 /* VARIABLES */
@@ -14261,13 +14313,17 @@ textarea.form-control-lg {
 .upper-footer .social-media-icon {
   width: 25px;
 }
-.upper-footer .row .col:nth-child(2) {
-  position: relative;
-  left: 60px;
+@media screen and (min-width: 75rem) {
+  .upper-footer .row .col:nth-child(2) {
+    position: relative;
+    left: 60px;
+  }
 }
-.upper-footer .row .col:nth-child(4) {
-  position: relative;
-  left: 60px;
+@media screen and (min-width: 75rem) {
+  .upper-footer .row .col:nth-child(4) {
+    position: relative;
+    left: 60px;
+  }
 }
 .upper-footer .row .col:nth-child(4) a {
   display: block;

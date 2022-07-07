@@ -8,12 +8,37 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   height: 600px;
-}
 
-.h1-container {
-  height: 60%;
-}
+  li {
+    font-family: NunitoSans-semibold;
+  }
 
-.second-menu {
-  padding-left: 0px;
+  .first-menu {
+    margin-bottom: 0;
+    li {
+      font-size: 14px;
+      position: relative;
+      top: 8px;
+    }
+  }
+
+  .second-menu {
+    padding-left: 0px;
+    padding-top: 20px;
+    li {
+      font-size: 16px;
+      padding-left: 30px;
+    }
+  }
+
+  .h1-container {
+    height: 55%;
+    h1 {
+      font-size: 50px;
+    }
+
+    h2 {
+      font-size: 38px;
+    }
+  }
 }
