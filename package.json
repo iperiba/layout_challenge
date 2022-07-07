@@ -1,0 +1,54 @@
+{
+  "name": "layout_challenge",
+  "version": "5.1.0",
+  "description": "layout challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SASS",
+    "Bootstrap"
+  ],
+  "author": "@hatuhay",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "bootstrap-icons": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "del": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "browser-sync": "^2.27.7",
+    "gulp-clean-css": "3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-load-plugins": "^2.0.4",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-scss-lint": "^1.0.0",
+    "gulp-uglify": "^3.0.0",
+    "merge-stream": "^1.0.1",
+    "postcss-inline-svg": "^4.1.0",
+    "postcss-pxtorem": "^5.1.1",
+    "postcss": "^8.4.4",
+    "sass": "^1.44.0",
+    "autoprefixer": "^10.4.0"
+  },
+  "browserslist": [
+    "Chrome >= 35",
+    "Firefox >= 38",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 8",
+    "Safari >= 8",
+    "Android 2.3",
+    "Android >= 4",
+    "Opera >= 12"
+  ]
+}

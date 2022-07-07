@@ -1,0 +1,17 @@
+
+@use "variables";
+
+.cards-container {
+  .col {
+    .card-body {
+      h5 {
+        font-size: 20px;
+        font-family: NunitoSans-bold;
+      }
+      p {
+        font-size: 16px;
+        font-family: NunitoSans-regular;
+      }
+    }
+  }
+}
